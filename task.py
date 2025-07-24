@@ -38,5 +38,16 @@ money[2] = 1000
 print(money)
 
 print(money[::-1])
-#courseList = ["MTH 101","PHY 101","CHM 101","CSC 101","GST 101"
+# 4
+courseList = ["MTH 101","PHY 101","CHM 101","CSC 101","GST 101"]
+addCourse = courseList.insert(0,"ENG 101")
+print(courseList)
+
+removecourse =  courseList.remove(courseList[-1])
+print(courseList)
+addCourse = courseList.insert(3,"BIO 101")
+print(courseList)
+
+print(courseList[2])
+
 
