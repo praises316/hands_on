@@ -50,4 +50,28 @@ print(courseList)
 
 print(courseList[2])
 
+friendsList = ["Aisha", "Daniel", "Esther", "John", "Mary", "Paul", "Ruth"]
+addKemi = friendsList.insert(4,"Kemi")
+print(friendsList)
 
+removeDaniel = friendsList.remove(friendsList[1])
+print(friendsList)
+friendsList[0] = "Aisha M"
+print(friendsList)
+
+friendsList.append("Zainab")
+print(friendsList)
+
+newList = friendsList[0:3]
+print(newList)
+
+finalFriends = friendsList
+print(finalFriends)
+
+position = finalFriends[0:4]
+position2 = finalFriends[4:]
+#paulPositon = finalFriends /
+
+finalFriends.sort()
+print(finalFriends)
+print(position)
