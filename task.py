@@ -74,4 +74,8 @@ position2 = finalFriends[4:]
 
 finalFriends.sort()
 print(finalFriends)
-print(position)
+finalFriends.sort(reverse = True)
+print(finalFriends)
+#print(position)
+
+
