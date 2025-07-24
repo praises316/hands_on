@@ -28,3 +28,15 @@ print(genres[-2])
 
 newGenreList = genres
 print(newGenreList)
+
+# 3
+money = [1000, 1200, 800, 1500, 1100]
+sumOfMoney = sum(money)
+print(sumOfMoney)
+
+money[2] = 1000
+print(money)
+
+print(money[::-1])
+#courseList = ["MTH 101","PHY 101","CHM 101","CSC 101","GST 101"
+
